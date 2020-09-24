@@ -77,7 +77,7 @@ if($module == 'note'){
     }
     
     echo "<script>
-                location.href = 'Signature%20Pad%20demo.php?project=筆記本' + '&displayName=' + '$displayName' + '&name=' + '$name' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
+                location.href = 'home.php?project=筆記本' + '&displayName=' + '$displayName' + '&name=' + '$name' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
           </script>";
 }else{
     $gethistory = mysqli_query($link, "select * from flex_list where userId like '$userId'");
@@ -90,7 +90,7 @@ if($module == 'note'){
     }
 
     echo "<script>
-                location.href = 'Signature%20Pad%20demo.php?project=訊息DIY' + '&displayName=' + '$displayName' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
+                location.href = 'home.php?project=訊息DIY' + '&displayName=' + '$displayName' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
           </script>";
 }
 ?>

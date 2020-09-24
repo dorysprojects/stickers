@@ -105,7 +105,7 @@
         case 'update':
             $data = array(
                 'type' => 'tall',//compact,tall,full
-                'url' => './Signature%20Pad%20demo.php',
+                'url' => './home.php',
             );
             
             $curl = curl_init();

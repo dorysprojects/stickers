@@ -40,7 +40,7 @@ if($module == 'flex'){
 }
 
 echo "<script>
-            //location.href = 'Signature%20Pad%20demo.php';
-            location.href = 'Signature%20Pad%20demo.php?project=$project' + '&displayName=' + '$displayName' + '&pic_url=' + '$pic_url' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId';
+            //location.href = 'home.php';
+            location.href = 'home.php?project=$project' + '&displayName=' + '$displayName' + '&pic_url=' + '$pic_url' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId';
       </script>";
 ?>

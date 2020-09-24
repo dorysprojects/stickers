@@ -80,6 +80,6 @@ if(isset($_FILES['fileData'])){
 $userId = $_GET['userId'];
 
 echo "<script>
-            location.href = 'Signature%20Pad%20demo.php?project=手畫貼圖' + '&imgur_result=' + '$imgur_result' + '&userId=' + '$userId';
+            location.href = 'home.php?project=手畫貼圖' + '&imgur_result=' + '$imgur_result' + '&userId=' + '$userId';
       </script>"
 ?>

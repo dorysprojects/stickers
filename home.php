@@ -2203,7 +2203,7 @@
             var pictureUrl = $("#pictureUrl").html();
             var statusMessage = $("#statusMessage").html();
             
-            location.href = 'Signature%20Pad%20demo.php?' + 'project=' + val + '&displayName=' + displayName + '&pic_url=' + pic_url + '&pictureUrl=' + pictureUrl + '&statusMessage=' + statusMessage + '&userId=' + userId;
+            location.href = 'home.php?' + 'project=' + val + '&displayName=' + displayName + '&pic_url=' + pic_url + '&pictureUrl=' + pictureUrl + '&statusMessage=' + statusMessage + '&userId=' + userId;
         }
 
         function List(obj) {
@@ -2215,7 +2215,7 @@
             var pictureUrl = $("#pictureUrl").html();
             var statusMessage = $("#statusMessage").html();
             if ('<?php echo $userId; ?>' == '') {
-                location.href = 'Signature%20Pad%20demo.php?' + 'project=手畫貼圖' + '&displayName=' + displayName + '&pic_url=' + pic_url + '&pictureUrl=' + pictureUrl + '&statusMessage=' + statusMessage + '&userId=' + userId;
+                location.href = 'home.php?' + 'project=手畫貼圖' + '&displayName=' + displayName + '&pic_url=' + pic_url + '&pictureUrl=' + pictureUrl + '&statusMessage=' + statusMessage + '&userId=' + userId;
             }
 
             if (ManagerList.indexOf(userId) != '-1') {

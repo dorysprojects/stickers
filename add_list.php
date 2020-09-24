@@ -26,6 +26,6 @@ $count = $userId . "_" . (mysqli_num_rows($gethistory)+1);
 }*/
 
 echo "<script>
-            location.href = 'Signature%20Pad%20demo.php?project=手畫貼圖' + '&displayName=' + '$displayName' + '&pic_url=' + '$pic_url' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
+            location.href = 'home.php?project=手畫貼圖' + '&displayName=' + '$displayName' + '&pic_url=' + '$pic_url' + '&pictureUrl=' + '$pictureUrl' + '&statusMessage=' + '$statusMessage' + '&userId=' + '$userId' + '&datetime=' + '$datetime';
       </script>"
 ?>
